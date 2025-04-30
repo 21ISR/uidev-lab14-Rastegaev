@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    
     <link rel="icon" href="icon.svg" type="image/svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -67,27 +68,31 @@
         <section class="section_3">
             <h2>Get in Touch</h2>
             <p>Have questions about Noble or just want to say hello?<br>
-            drop us a line and a member of our tean will getback to you shortly</p>
+                drop us a line and a member of our tean will getback to you shortly</p>
             <form action="" method="post" class="form">
-                <input type="text">
-                <input type="text">
-                <input type="text">
-                <input type="text">
-                <input type="text">
-                <input type="text">
-                <input type="text">
-                <button></button>
+                <input type="text" name="Name" placeholder="Name">
+                <input type="text" name="Venue Name" placeholder="Venue Name">
+                <div style="display: flex; gap: 2 rem; margin:0; padding: 0;">
+                    <input type="text" name="Venue City" placeholder="Venue City">
+                    <input type="text" name="State City" placeholder="State City">
+                </div>
+                <input type="email" name="email" placeholder="Email">
+                <input type="text" name="Subject" placeholder="Subject">
+                <textarea type="text" name="Message" placeholder="Message" ></textarea>
+                <button>Send</button>
             </form>
         </section>
     </main>
-    <!-- <footer>
+    <footer>
         <div>
-            <p><span></span></p>
+            <p>Contact us:<br><span>support@notab.com</span></p>
+            <p>© 2025 - NoTab®</p>
         </div>
         <div>
-            <p></p>
+            <p>Terms to use</p>
+            <p>Privacy policy</p>
         </div>
-    </footer> -->
+    </footer>
 </body>
 
 </html>
