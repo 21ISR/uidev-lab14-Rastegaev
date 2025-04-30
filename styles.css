@@ -264,6 +264,7 @@ button{
     padding: 2rem 5rem;
     align-self: center;
     margin-top: 6rem;
+    cursor:pointer;
 }
 
 footer{
@@ -280,4 +281,7 @@ footer div{
     flex-direction: column;
     gap:2rem;
     margin:5.6rem 10rem
+}
+a{
+    text-decoration: none;
 }
